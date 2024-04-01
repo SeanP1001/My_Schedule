@@ -4,8 +4,8 @@
     <!-- Comments: 
 	Author: Sean Peters
 	Date: March 31, 2024 
-	Assignment: Pretty About Me 
-	Filename: style.css
+	Assignment: My Schedule 
+	Filename: index.html
     -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,7 +16,7 @@
     <h1>My Course Schedule</h1>
     <table>
         <tr>
-            <th colspan="5">Spring Semester Schedule</th>
+            <h2 colspan="5">Spring Semester Schedule</h2>
         </tr>
         <tr>
             <th>Monday</th>
@@ -28,7 +28,7 @@
         <tr>
             <td>CIS-230-101</td>
             <td>CIS-210-H102</td>
-            <td rowspan="2">CIS-135-W02</td>
+            <td>CIS-135-W02</td>
             <td>CIS-171-W01</td>
             <td>CIS-216-101</td>
         </tr>
