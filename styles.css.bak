@@ -10,12 +10,30 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #9fa69f;
+	background-image: url('GettyImages-eggs.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	background-attachment: fixed;
+    /*background-color: #9fa69f;*/
 }
 
 h1 {
+	background-color: #333;
+	color: white;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
+	padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white; 
+    text-align: center; 
+    padding: 20px; 
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
 }
 
 table {
@@ -32,7 +50,7 @@ th, td {
 }
 
 th {
-    background-color: #4CAF50;
+    background-color: #28852c;
     color: white;
 }
 

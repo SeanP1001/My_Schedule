@@ -10,12 +10,30 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #9fa69f;
+	background-image: url('May-flowers.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 100vh;
+	background-attachment: fixed;
+    /*background-color: #9fa69f;*/
 }
 
 h1 {
+	background-color: #333;
+	color: white;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 0px;
+	padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white; 
+    text-align: center; 
+    padding: 20px; 
+    position: fixed; 
+    bottom: 0;
+    width: 100%;
 }
 
 table {
@@ -25,4 +43,26 @@ table {
     border-collapse: collapse;
 }
 
+th, td {
+    border: 2px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
 
+th {
+    background-color: #28852c;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+td:nth-child(odd) {
+	font-weight: bold;
+    background-color: #f9ffbc;
+}
+
+td:nth-child(even) {
+    background-color: #bcfff9;
+}

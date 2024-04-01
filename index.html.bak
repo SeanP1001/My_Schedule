@@ -16,7 +16,7 @@
     <h1>My Course Schedule</h1>
     <table>
         <tr>
-            <h2 colspan="5">Spring Semester Schedule</h2>
+            <th colspan="5">Spring Semester Schedule</th>
         </tr>
         <tr>
             <th>Monday</th>
@@ -54,5 +54,6 @@
             <td>1:00 PM - 3:00 PM</td>
         </tr>
     </table>
+	<footer>Spring Schooling LLC.</footer>
 </body>
 </html>
